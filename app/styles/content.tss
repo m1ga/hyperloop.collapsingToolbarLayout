@@ -1,0 +1,15 @@
+".container" : {
+	layout: 'vertical'
+}
+"#view_space" : {
+	height: 800,
+	width: 100,
+	backgroundColor: "#f00"
+}
+"Label" : {
+	color: "#000",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	top: 10,
+	bottom: 10
+}

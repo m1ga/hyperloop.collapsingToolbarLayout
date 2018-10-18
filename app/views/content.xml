@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="container">
+		<ImageView image="/appicon.png"/>
+		<Label text="Native Android view with Titanum elements"/>
+		<View id="view_space"/>
+	</View>
+</Alloy>

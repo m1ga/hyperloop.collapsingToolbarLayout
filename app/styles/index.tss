@@ -1,0 +1,6 @@
+"Window":{
+	theme:"Theme.MyTheme"
+}
+".container": {
+	backgroundColor:"white"
+}
