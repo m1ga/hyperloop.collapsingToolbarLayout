@@ -1,5 +1,7 @@
 <Alloy>
-	<Window class="container">
-		
-	</Window>
+	<NavigationWindow>
+		<Window>
+			<Button onClick="onClick" title="open XML view"/>
+		</Window>
+	</NavigationWindow>
 </Alloy>

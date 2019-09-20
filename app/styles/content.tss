@@ -1,5 +1,6 @@
 ".container" : {
-	layout: 'vertical'
+	layout: 'vertical',
+	backgroundColor: "#fff"
 }
 "#view_space" : {
 	height: 800,

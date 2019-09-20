@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
-	<id>com.miga.xml</id>
-	<name>Hyperloop XML</name>
-	<version>1.0</version>
-	<publisher>not specified</publisher>
-	<url>unspecified</url>
-	<description/>
-	<copyright>not specified</copyright>
-	<icon>appicon.png</icon>
-	<fullscreen>false</fullscreen>
-	<navbar-hidden>true</navbar-hidden>
-	<analytics>false</analytics>
-	<guid>c24015ea-40f0-4531-9ddd-294ff1c66872</guid>
-	<property name="ti.ui.defaultunit" type="string">dp</property>
-	<property name="run-on-main-thread" type="bool">true</property>
-	<ios></ios>
-	<android xmlns:android="http://schemas.android.com/apk/res/android"></android>
-	<modules>
-		<module>hyperloop</module>
-	</modules>
-	<deployment-targets>
-		<target device="android">true</target>
-	</deployment-targets>
-	<sdk-version>7.4.0.GA</sdk-version>
-	<plugins>
-		<plugin version="1.0">ti.alloy</plugin>
-	</plugins>
-	<property name="appc-app-id" type="string">5bc7904e20a92b37be2f292c</property>
-</ti:app>
+<ti:app
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.miga.xml</id>
+  <name>Hyperloop XML</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>true</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>ddcbf7be-2b8c-41cb-9999-294ff1c66872</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios/>
+  <android
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+      <module>hyperloop</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">true</target>
+    </deployment-targets>
+    <sdk-version>8.2.0.GA</sdk-version>
+    <plugins>
+      <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5d84ec4dbac4d06360e4a30b</property>
+  </ti:app>

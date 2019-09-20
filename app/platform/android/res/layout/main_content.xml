@@ -24,7 +24,7 @@
 
 			<!-- just toolbar (covers the CollapsingToolbarLayout)-->
 			<!-- android:background="#1c90ec" -->
-			<android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"  android:minHeight="?attr/actionBarSize" app:layout_collapseMode="pin"/>
+			<android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"  android:minHeight="?attr/actionBarSize" app:layout_collapseMode="pin" />
 
 		</android.support.design.widget.CollapsingToolbarLayout>
 

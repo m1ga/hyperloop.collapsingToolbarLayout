@@ -1,6 +1,4 @@
-"Window":{
-	theme:"Theme.MyTheme"
-}
-".container": {
-	backgroundColor:"white"
+"Window" : {
+	theme: "Theme.MyTheme",
+	backgroundColor: "white"
 }
