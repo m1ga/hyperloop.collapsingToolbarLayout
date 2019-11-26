@@ -1,4 +1,5 @@
 "Window" : {
 	theme: "Theme.MyTheme",
-	backgroundColor: "white"
+	backgroundColor: "white",
+	layout: 'vertical'
 }

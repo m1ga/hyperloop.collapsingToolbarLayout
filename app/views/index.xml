@@ -1,7 +1,8 @@
 <Alloy>
 	<NavigationWindow>
 		<Window>
-			<Button onClick="onClick" title="open XML view"/>
+			<Button onClick="onClick1" title="open collapsing Toolbar with image view"/>
+			<Button onClick="onClick2" title="open sliding Toolbar view"/>
 		</Window>
 	</NavigationWindow>
 </Alloy>
