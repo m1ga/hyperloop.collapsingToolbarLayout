@@ -16,6 +16,7 @@
 			app:layout_scrollFlags="scroll|exitUntilCollapsed"
 			 android:fitsSystemWindows="true"
 			 app:contentScrim="#1c90ec"
+			 android:icon="@drawable/ic_action_users"
 			>
 			<!-- android:background="#1c90ec" -->
 

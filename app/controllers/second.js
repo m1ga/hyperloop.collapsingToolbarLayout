@@ -41,6 +41,7 @@ appCompatActivity.getSupportActionBar().setHomeButtonEnabled(true);
 appCompatActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 appCompatActivity.getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+toolbar.setNavigationIcon(resIDFromString("ic_action_users", "drawable"));
 toolbar.setNavigationOnClickListener(new View.OnClickListener({
 	onClick: function(e) {
 		$.second.close();
