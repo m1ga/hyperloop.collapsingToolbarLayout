@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
 	android:id="@+id/main_content"
 	android:theme="@style/Theme.AppCompat.Light"
 	xmlns:android="http://schemas.android.com/apk/res/android"
@@ -6,18 +6,17 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
 
-	<android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="255dp" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+	<com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="255dp" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
 		<!-- full top view (is behind the toolbar) -->
-		<android.support.design.widget.CollapsingToolbarLayout
+		<com.google.android.material.appbar.CollapsingToolbarLayout
 			android:id="@+id/collapsing_toolbar_layout"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
 			app:layout_scrollFlags="scroll|exitUntilCollapsed"
-			 android:fitsSystemWindows="true"
-			 app:contentScrim="#1c90ec"
-			 android:icon="@drawable/ic_action_users"
-			>
+			android:fitsSystemWindows="true"
+			app:contentScrim="#1c90ec"
+			android:icon="@drawable/ic_action_users">
 			<!-- android:background="#1c90ec" -->
 
 			<!-- background image -->
@@ -25,18 +24,18 @@
 
 			<!-- just toolbar (covers the CollapsingToolbarLayout)-->
 			<!-- android:background="#1c90ec" -->
-			<android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"  android:minHeight="?attr/actionBarSize" app:layout_collapseMode="pin" />
+			<androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:minHeight="?attr/actionBarSize" app:layout_collapseMode="pin"/>
 
-		</android.support.design.widget.CollapsingToolbarLayout>
+		</com.google.android.material.appbar.CollapsingToolbarLayout>
 
-	</android.support.design.widget.AppBarLayout>
+	</com.google.android.material.appbar.AppBarLayout>
 
-	<android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+	<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 		<LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 
 			<!-- main content -->
 
 		</LinearLayout>
-	</android.support.v4.widget.NestedScrollView>
-</android.support.design.widget.CoordinatorLayout>
+	</androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,4 +1,3 @@
-
-".container" : {
-  
+"Window" : {
+	theme: "Theme.MyTheme"
 }
